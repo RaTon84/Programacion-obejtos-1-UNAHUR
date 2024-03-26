@@ -1,4 +1,4 @@
-
+/*Ej1 contador */
 
 object contador{
 	/*atributos */
