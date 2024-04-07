@@ -1,7 +1,7 @@
 object prototipo {
 	var cambio = 0;
 	var rpm = 0;
-	var velocidad = 0;
+	/*const velocidad = 0;*/
 	
 	method arrancar(){
 		cambio = 1;
@@ -36,6 +36,6 @@ object prototipo {
 	}
 	
 	method consumoActualPorKm(){
-		return if(rpm)
+		return rpm;
 	}	
 }
