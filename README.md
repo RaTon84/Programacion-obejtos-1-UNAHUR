@@ -1,3 +1,7 @@
+<div align="end">
+  <img  src="logo-unahur.png" alt="logo-unahur" width="250" height="75" />
+</div>  
+
 # Programación con Objetos 1
 
 ## Objeto, mensaje, método, variable
