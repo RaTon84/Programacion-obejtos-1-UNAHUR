@@ -26,4 +26,9 @@ object pepita {
 			return if(energia.between(300,400)) km+10 else km; 
 		}	
 	}
+	method haceLoQueQuieras(){
+		return if(self.estaDebil())
+		self.comer(20) else if(self.estaFeliz()) self.cuantoQuiereVolar();
+	}
+
 }
