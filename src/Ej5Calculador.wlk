@@ -1,6 +1,7 @@
 object calculadora {
 	var numero = 0;
 	var numeroMem = 0;
+	
 	method sumar(otroNumero){
 		numero += otroNumero;
 	}
@@ -30,5 +31,8 @@ object calculadora {
 	}
 	method multiplicarMemoria(){
 		numero *= numeroMem
+	}
+	method deshacer(){
+		
 	}
 }
